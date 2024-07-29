@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style.css">  
+  <title>Product list with cart</title>
+</head>
+<body>
+  <div id="main-of-content">
+    <div id="list-of-cart">
+      <div id="title-list-of-cart">
+        <h1>Desserts</h1>
+      </div>
+      <div id="main-list-of-cart">
+      </div>
+    </div>
+    <div id="total-cart" class="tootal-cart" >
+      <div id="total-cart-title">
+        <h2>Your Cart<span id="total-cart-title-count"> (0)</span> </h2>
+      </div>
+      <div id="total-cart-main">
+        <div id="total-cart-main-empty">
+          <img src="assets/images/illustration-empty-cart.svg" alt="">
+          <span>  Your added items will appear here</span>
+        </div>
+        <div id="total-cart-button">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div id="popup">
+    <div id="main-content-popup">
+      <div id="main-content-popup-img">
+        <img src="assets/images/icon-order-confirmed.svg" alt="">
+      </div>
+      <div id="main-content-popup-title">
+        <h1>Order Confirmed</h1>
+        <p>We hope you enjoy your food!</p>
+      </div>
+      <div id="main-conetent-item">
+      </div>
+      <button onClick="window.location.reload();" id="reload-page">Accept Order</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
